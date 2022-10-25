@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.sedans {
+  background: hsl(31, 77%, 52%);
+  padding: 2em;
+  border-radius: 10px 0px 0px 10px;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+}
+.luxury {
+  background: hsl(179, 100%, 13%);
+  padding: 2em;
+  border-radius: 0px 10px 10px 0px;
+}
+
+h1 {
+  color: white;
+  font-family: "Big Shoulders Display", sans-serif;
+  padding-bottom: 10px;
+}
+
+p {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.gen {
+  border-radius: 25px;
+
+  background-color: hsl(0, 0%, 95%);
+  width: max-content;
+  padding: 5px 10px;
+  letter-spacing: 0.15em;
+}
+
+div.gen:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  color: hsl(0, 0%, 95%);
+  border: 0.2em double hsl(0, 0%, 95%);
+  transition: 0.3s;
+}
+
+.orange {
+  color: hsl(31, 77%, 52%);
+}
+.cyan {
+  color: hsl(184, 100%, 22%);
+}
+.dark {
+  color: hsl(179, 100%, 13%);
+}
